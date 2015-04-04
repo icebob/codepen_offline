@@ -1,5 +1,5 @@
 # Codepen Offline
-Codepen's pen offline coding with livereload
+Codepen's pen offline coding tool with livereload support
 
 ## Features
 - handles multiple downloaded pens
@@ -38,7 +38,7 @@ gulp
 ```
 
 ## How it works
-...youtube video coming soon :)
+[![How it works video](http://img.youtube.com/vi/GSMks-6RXIk/0.jpg)](http://www.youtube.com/watch?v=GSMks-6RXIk)
 
 ## Contact
 
