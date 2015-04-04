@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>CodePen Offline</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+	<style>
+
+	body {
+		background: #303030;
+		font-family: 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, sans-serif;;
+		font-size: 16px;
+		color: White;
+	}
+
+	.logo {
+		position: relative;
+		width: 220px;
+		height: 62px;
+		background-image: url('https://assets.codepen.io/assets/logos/codepen-logo.svg');
+		background-origin: padding-box;
+  		background-size: 176px 31px;
+  		background-attachment: scroll;
+  		background-clip: border-box;
+  		background-repeat: no-repeat;
+
+		padding-left: 135px;
+		padding-top: 27px;
+		font-size: 13px;
+		font-family: Lato, sans-serif;
+		color: White;
+	}
+
+	.logo a {
+		position: absolute;
+		left: 0; right: 0;
+		top: 0; bottom: 0;
+		z-index: 4000;
+	}
+
+	.pens {
+		margin: 2% 10%;
+	}
+
+	.pen {
+		width: 31%;
+		height: 230px;
+		float: left;
+		overflow: hidden;
+		margin: 0 2% 25px 0;
+		position: relative;	
+
+	}
+
+	.pen .iframe-wrap {
+		position: relative;
+		height: 200px;
+		overflow: hidden;
+	}
+
+	.pen .iframe-wrap a {
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		border: 0 !important;
+		z-index: 4000;		
+	}
+
+	.pen .iframe-wrap iframe {
+		width: 200%;
+		height: 200%;
+		border: 0;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background: white;
+		-webkit-transform: scale(0.5);
+		-ms-transform: scale(0.5);
+		transform: scale(0.5);
+		-webkit-transform-origin: top left;
+		-ms-transform-origin: top left;
+		transform-origin: top left;
+	}
+
+	.pen .iframe-wrap .info {
+		position: absolute;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		z-index: 3000;		
+		font-size: 1.2em;
+		font-family: Lato;
+		padding: 4px 10px;
+		background-color: rgba(0,0,0,0.75);
+
+		-webkit-transition: all .25s ease;
+		transition: all .25s ease;
+	}	
+
+	.pen:hover .iframe-wrap .info {
+		padding: 15px 10px;
+	}	
+
+
+	</style>
+</head>
+
+<body>
+	<div class="logo">Offline<a href="http://www.codepen.io"></a></div>
+
+	<div class="pens">
+
+	%%PENS%%
+
+	</div>
+</body>
+
+</html>

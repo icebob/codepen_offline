@@ -1,2 +1,2 @@
-# codepen_offline
-Codepen offline coding
+# Codepen Offline
+Codepen's pen offline coding with livereload

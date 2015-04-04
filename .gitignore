@@ -2,6 +2,9 @@
 logs
 *.log
 
+# Generated index.html
+index.html
+
 # Runtime data
 pids
 *.pid
